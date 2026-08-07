@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>restaurant</title>
+        <link rel="stylesheet" href="res.css">
+    </head>
+    <body>
+        <header>
+            <h1>welcome to my restaurant page</h1>
+        </header>
+        <div id="list" class="li">
+            <ul>
+                <li>pizza</li>
+                <li>panini</li>
+                <li>sandwich</li>
+                <li>tacos</li>
+                <li>burger</li>
+            </ul>
+        </div>
+        <div id="choices" class="choices">
+            <p>click on one of them to get your food that you want!!</p>
+            <button onclick="choice('pizza')">pizza</button>
+            <button onclick="choice('panini')">panini</button>
+            <button onclick="choice('sandwich')">sandwich</button>
+            <button onclick="choice('tacos')">tacos</button>
+            <button onclick="choice('burger')">burger</button>
+    
+        </div>
+        <div id="drink" class="choices">
+        <p>click on the button to see wich drink hyou want!!</p>
+        <button onclick="drink('coca cola')">coca cola</button>
+        <button onclick="drink('pepsi')">pepsi</button>
+        </div>
+        <div id="info" class="food">
+            <h2>choices</h2>
+            <p>click to the food or drink to get what you want</p>
+        </div>
+        <script src="res.js"></script>
+    </body>
+</html>
